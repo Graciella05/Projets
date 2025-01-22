@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background-color: #110666;
+    background: to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%;
+    /*, url(images/img.jpg);*/
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*padding-left: 20px;*/
+    float: left;
+    padding-top: 10px;
+}
+
+.content {
+    box-sizing: border-box;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #FFF;
+    position: relative;
+}
+
+.formulaire {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50px, rgba(0, 0, 0, 0.8)50%);
+    border: solid 3px #ff7200;
+    border-radius: 8px;
+    width: 350px;
+    height: 400px;
+    padding: 25px;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.formulaire input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #FFF;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.formulaire h2 {
+    width: 300px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 35px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.formulaire input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn {
+    width: 300px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFF;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #FFF;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+}
+
+footer {
+    color: #ff7200;
+}
